@@ -6,16 +6,11 @@
 
 #include "PacmanPawn.h"
 #include "GameFramework/PlayerController.h"
-#include "Pacman_Controller.generated.h"
+#include "PacmanController.generated.h"
 
-/**
- * 
- */
-
-class APacmanPawn;
 
 UCLASS()
-class PACMAN_API APacman_Controller : public APlayerController
+class PACMAN_API APacmanController : public APlayerController
 {
 	GENERATED_BODY()
 

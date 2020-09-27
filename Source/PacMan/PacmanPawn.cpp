@@ -39,21 +39,21 @@ void APacmanPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
 }
 
-void APacmanPawn::SetDirection(const FVector direction)
+void APacmanPawn::SetDirection(const FVector Direction)
 {
-	if (direction == FVector::UpVector)
+	if (Direction == FVector::UpVector)
 	{
 		SetActorRotation(FRotator(0, 270, 0));
 	}
-	else if (direction == FVector::DownVector)
+	else if (Direction == FVector::DownVector)
 	{
 		SetActorRotation(FRotator(0, 90, 0));
 	}
-	else if (direction == FVector::RightVector)
+	else if (Direction == FVector::RightVector)
 	{
 		SetActorRotation(FRotator(0, 0, 0));
 	}
-	else if (direction == FVector::LeftVector)
+	else if (Direction == FVector::LeftVector)
 	{
 		SetActorRotation(FRotator(0, 180, 0));
 	}

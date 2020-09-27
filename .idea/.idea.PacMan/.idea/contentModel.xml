@@ -26,8 +26,8 @@
           <e p="PacMan.Build.cs" t="Include" />
           <e p="PacMan.cpp" t="Include" />
           <e p="PacMan.h" t="Include" />
-          <e p="Pacman_Controller.cpp" t="Include" />
-          <e p="Pacman_Controller.h" t="Include" />
+          <e p="PacmanController.cpp" t="Include" />
+          <e p="PacmanController.h" t="Include" />
           <e p="PacManGameModeBase.cpp" t="Include" />
           <e p="PacManGameModeBase.h" t="Include" />
           <e p="PacmanPawn.cpp" t="Include" />

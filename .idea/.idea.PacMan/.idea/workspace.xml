@@ -10,33 +10,23 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:Pacman" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:dev" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="298704f5-e10f-41c7-a0c5-c30d93ccf311" name="Default Changelist" comment="Started new project for the third and final game in the tutorial series - Pacman">
-      <change afterPath="$PROJECT_DIR$/PacMan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/PacMan/Pacman_Controller.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/PacMan/Pacman_Controller.h" afterDir="false" />
+    <list default="true" id="298704f5-e10f-41c7-a0c5-c30d93ccf311" name="Default Changelist" comment="First commit to the fundamentals From Tutorial branch, so i won't commit to the master">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PacMan/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PacMan/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PacMan/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PacMan/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PacMan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PacMan/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/PacMan/PacmanPawn.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PacMan/PacmanPawn.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/PacMan/PacmanPawn.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PacMan/PacmanPawn.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/PacMan/Pacman_Controller.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PacMan/PacmanController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/PacMan/Pacman_Controller.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PacMan/PacmanController.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,10 +45,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Source/PacMan/PacmanPawn.h" />
-        <option value="$PROJECT_DIR$/Source/PacMan/PacmanPawn.cpp" />
         <option value="$PROJECT_DIR$/Source/PacMan/Pacman_Controller.h" />
         <option value="$PROJECT_DIR$/Source/PacMan/Pacman_Controller.cpp" />
+        <option value="$PROJECT_DIR$/Source/PacMan/PacmanPawn.h" />
+        <option value="$PROJECT_DIR$/Source/PacMan/PacmanPawn.cpp" />
+        <option value="$PROJECT_DIR$/Source/PacMan/PacmanController.h" />
+        <option value="$PROJECT_DIR$/Source/PacMan/PacmanController.cpp" />
       </list>
     </option>
   </component>
@@ -69,6 +61,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.35030302" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -303,7 +296,8 @@
       <updated>1601047128840</updated>
       <workItem from="1601047134492" duration="1401000" />
       <workItem from="1601213557519" duration="924000" />
-      <workItem from="1601216289481" duration="1464000" />
+      <workItem from="1601216289481" duration="4262000" />
+      <workItem from="1601222837145" duration="735000" />
     </task>
     <task id="LOCAL-00001" summary="Started new project for the third and final game in the tutorial series - Pacman">
       <created>1601047495148</created>
@@ -312,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601047495148</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First commit to the fundamentals From Tutorial branch, so i won't commit to the master">
+      <created>1601217853789</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601217853789</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,21 +349,102 @@
     </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Started new project for the third and final game in the tutorial series - Pacman" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started new project for the third and final game in the tutorial series - Pacman" />
+    <MESSAGE value="First commit to the fundamentals From Tutorial branch, so i won't commit to the master" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit to the fundamentals From Tutorial branch, so i won't commit to the master" />
   </component>
   <component name="WindowStateProjectService">
     <state x="93" y="93" width="1095" height="535" key="DiffContextDialog" timestamp="1601214488973">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="93" y="93" width="1095" height="535" key="DiffContextDialog/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1601214488973" />
+    <state width="1681" height="387" key="GridCell.Tab.0.bottom" timestamp="1601222756420">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1681" height="387" key="GridCell.Tab.0.bottom/0.0.1280.720/-1680.34.1680.1050@-1680.34.1680.1050" timestamp="1601222303816" />
+    <state width="1681" height="387" key="GridCell.Tab.0.bottom/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1601222756420" />
+    <state width="1681" height="387" key="GridCell.Tab.0.center" timestamp="1601222756420">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1681" height="387" key="GridCell.Tab.0.center/0.0.1280.720/-1680.34.1680.1050@-1680.34.1680.1050" timestamp="1601222303816" />
+    <state width="1681" height="387" key="GridCell.Tab.0.center/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1601222756420" />
+    <state width="1681" height="387" key="GridCell.Tab.0.left" timestamp="1601222756420">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1681" height="387" key="GridCell.Tab.0.left/0.0.1280.720/-1680.34.1680.1050@-1680.34.1680.1050" timestamp="1601222303816" />
+    <state width="1681" height="387" key="GridCell.Tab.0.left/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1601222756420" />
+    <state width="1681" height="387" key="GridCell.Tab.0.right" timestamp="1601222756420">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1681" height="387" key="GridCell.Tab.0.right/0.0.1280.720/-1680.34.1680.1050@-1680.34.1680.1050" timestamp="1601222303816" />
+    <state width="1681" height="387" key="GridCell.Tab.0.right/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1601222756420" />
+    <state width="1681" height="387" key="GridCell.Tab.1.bottom" timestamp="1601222756421">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1681" height="387" key="GridCell.Tab.1.bottom/0.0.1280.720/-1680.34.1680.1050@-1680.34.1680.1050" timestamp="1601222303816" />
+    <state width="1681" height="387" key="GridCell.Tab.1.bottom/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1601222756421" />
+    <state width="1681" height="387" key="GridCell.Tab.1.center" timestamp="1601222756420">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1681" height="387" key="GridCell.Tab.1.center/0.0.1280.720/-1680.34.1680.1050@-1680.34.1680.1050" timestamp="1601222303816" />
+    <state width="1681" height="387" key="GridCell.Tab.1.center/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1601222756420" />
+    <state width="1681" height="387" key="GridCell.Tab.1.left" timestamp="1601222756420">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1681" height="387" key="GridCell.Tab.1.left/0.0.1280.720/-1680.34.1680.1050@-1680.34.1680.1050" timestamp="1601222303816" />
+    <state width="1681" height="387" key="GridCell.Tab.1.left/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1601222756420" />
+    <state width="1681" height="387" key="GridCell.Tab.1.right" timestamp="1601222756421">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1681" height="387" key="GridCell.Tab.1.right/0.0.1280.720/-1680.34.1680.1050@-1680.34.1680.1050" timestamp="1601222303816" />
+    <state width="1681" height="387" key="GridCell.Tab.1.right/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1601222756421" />
+    <state width="1681" height="387" key="GridCell.Tab.2.bottom" timestamp="1601222756421">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1681" height="387" key="GridCell.Tab.2.bottom/0.0.1280.720/-1680.34.1680.1050@-1680.34.1680.1050" timestamp="1601222303817" />
+    <state width="1681" height="387" key="GridCell.Tab.2.bottom/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1601222756421" />
+    <state width="1681" height="387" key="GridCell.Tab.2.center" timestamp="1601222756421">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1681" height="387" key="GridCell.Tab.2.center/0.0.1280.720/-1680.34.1680.1050@-1680.34.1680.1050" timestamp="1601222303817" />
+    <state width="1681" height="387" key="GridCell.Tab.2.center/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1601222756421" />
+    <state width="1681" height="387" key="GridCell.Tab.2.left" timestamp="1601222756421">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1681" height="387" key="GridCell.Tab.2.left/0.0.1280.720/-1680.34.1680.1050@-1680.34.1680.1050" timestamp="1601222303816" />
+    <state width="1681" height="387" key="GridCell.Tab.2.left/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1601222756421" />
+    <state width="1681" height="387" key="GridCell.Tab.2.right" timestamp="1601222756421">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1681" height="387" key="GridCell.Tab.2.right/0.0.1280.720/-1680.34.1680.1050@-1680.34.1680.1050" timestamp="1601222303817" />
+    <state width="1681" height="387" key="GridCell.Tab.2.right/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1601222756421" />
+    <state width="1681" height="387" key="GridCell.Tab.3.bottom" timestamp="1601222756421">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1681" height="387" key="GridCell.Tab.3.bottom/0.0.1280.720/-1680.34.1680.1050@-1680.34.1680.1050" timestamp="1601222303817" />
+    <state width="1681" height="387" key="GridCell.Tab.3.bottom/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1601222756421" />
+    <state width="1681" height="387" key="GridCell.Tab.3.center" timestamp="1601222756421">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1681" height="387" key="GridCell.Tab.3.center/0.0.1280.720/-1680.34.1680.1050@-1680.34.1680.1050" timestamp="1601222303817" />
+    <state width="1681" height="387" key="GridCell.Tab.3.center/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1601222756421" />
+    <state width="1681" height="387" key="GridCell.Tab.3.left" timestamp="1601222756421">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1681" height="387" key="GridCell.Tab.3.left/0.0.1280.720/-1680.34.1680.1050@-1680.34.1680.1050" timestamp="1601222303817" />
+    <state width="1681" height="387" key="GridCell.Tab.3.left/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1601222756421" />
+    <state width="1681" height="387" key="GridCell.Tab.3.right" timestamp="1601222756421">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1681" height="387" key="GridCell.Tab.3.right/0.0.1280.720/-1680.34.1680.1050@-1680.34.1680.1050" timestamp="1601222303817" />
+    <state width="1681" height="387" key="GridCell.Tab.3.right/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1601222756421" />
     <state x="142" y="5" key="SettingsEditor" timestamp="1601216328587">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="142" y="5" key="SettingsEditor/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1601216328587" />
-    <state x="233" y="93" key="Vcs.Push.Dialog.v2" timestamp="1601047510629">
+    <state x="233" y="93" key="Vcs.Push.Dialog.v2" timestamp="1601217872278">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="233" y="93" key="Vcs.Push.Dialog.v2/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1601047510629" />
+    <state x="233" y="93" key="Vcs.Push.Dialog.v2/0.0.1280.720/-1680.34.1680.1050@0.0.1280.720" timestamp="1601217872278" />
     <state x="458" y="274" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601217765980">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
