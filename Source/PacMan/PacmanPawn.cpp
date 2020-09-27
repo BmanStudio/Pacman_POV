@@ -16,12 +16,19 @@ void APacmanPawn::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	OnActorBeginOverlap.AddDynamic(this, &APacmanPawn::OnOverlapBegin);
+	
 }
 
 // Called every frame
 void APacmanPawn::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	if (!bFrozen)
+	{
+		AddMovementInput(GetActorForwardVector());
+	}
 
 }
 
@@ -34,6 +41,22 @@ void APacmanPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
 void APacmanPawn::SetDirection(const FVector direction)
 {
+	if (direction == FVector::UpVector)
+	{
+		SetActorRotation(FRotator(0, 270, 0));
+	}
+	else if (direction == FVector::DownVector)
+	{
+		SetActorRotation(FRotator(0, 90, 0));
+	}
+	else if (direction == FVector::RightVector)
+	{
+		SetActorRotation(FRotator(0, 0, 0));
+	}
+	else if (direction == FVector::LeftVector)
+	{
+		SetActorRotation(FRotator(0, 180, 0));
+	}
 }
 
 void APacmanPawn::OnOverlapBegin(AActor* PlayerActor, AActor* OtherActor)
