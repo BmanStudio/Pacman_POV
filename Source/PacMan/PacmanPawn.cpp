@@ -3,6 +3,8 @@
 
 #include "PacmanPawn.h"
 
+#include "FoodPickup.h"
+
 // Sets default values
 APacmanPawn::APacmanPawn()
 {
@@ -61,6 +63,17 @@ void APacmanPawn::SetDirection(const FVector Direction)
 
 void APacmanPawn::OnOverlapBegin(AActor* PlayerActor, AActor* OtherActor)
 {
-	
+	if (OtherActor->ActorHasTag("Food.Regular"))
+	{
+		auto foodPickup = Cast<AFoodPickup>(OtherActor);
+		if (foodPickup != nullptr)
+		{
+			foodPickup->Consume();
+		}
+		else
+		{
+			throw "Actor has tag Food.Regular but it's not a AFoodPickup object";
+		}
+	}
 }
 

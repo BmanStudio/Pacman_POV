@@ -9,6 +9,7 @@
         <e p="DefaultEditorSettings.ini" t="Include" />
         <e p="DefaultEngine.ini" t="Include" />
         <e p="DefaultGame.ini" t="Include" />
+        <e p="DefaultInput.ini" t="Include" />
       </e>
       <e p="Engine" t="Include" />
       <e p="Games" t="Include" />
@@ -18,11 +19,16 @@
         <e p="UE4.vcxproj" t="IncludeRecursive" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
+      <e p="PacMan.png" t="Include" />
       <e p="PacMan.sln" t="IncludeFlat" />
       <e p="PacMan.uproject" t="Include" />
       <e p="README.md" t="Include" />
       <e p="Source" t="Include">
         <e p="PacMan" t="Include">
+          <e p="EnemyPawn.cpp" t="Include" />
+          <e p="EnemyPawn.h" t="Include" />
+          <e p="FoodPickup.cpp" t="Include" />
+          <e p="FoodPickup.h" t="Include" />
           <e p="PacMan.Build.cs" t="Include" />
           <e p="PacMan.cpp" t="Include" />
           <e p="PacMan.h" t="Include" />
